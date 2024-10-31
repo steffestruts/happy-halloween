@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+
+#particles-js {
+  animation: thunder 2s infinite;
+  background-color: black;
+  bottom: -25px;
+  height: 100vh;
+  left: 0;
+  text-align: center;
+  position: relative;
+  top: 0;
+  width: 100vw;
+}
+
+.title {
+  color: #e66c2c;
+  font-family: "Rubik Wet Paint", system-ui;
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  left: 50%;
+  position: absolute;
+  text-wrap: nowrap;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes thunder {
+  0%  {background-color: #cecece;}
+  60% {background-color: black;}
+  90%  {background-color: #cecece;}
+  100% {background-color: black;}
+}
